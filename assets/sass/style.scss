@@ -1,6 +1,19 @@
 $header-color: #636466;
 $header-font: 'georgia', serif;
-    
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    width: 100%;
+    height: 6em;
+    background-color: white;
+}
+
+
 h1 {
     color: $header-color;
     font-family: $header-font;
